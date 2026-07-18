@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
+    <style>
+        * {
+            font-family: "Urbanist", sans-serif;
+        }
+
+        .footer-email-input::placeholder {
+            color: white;
+        }
+
+        /* .footer-email-input {
+            outline: none;
+        } */
+    </style>
+</head>
+
+<body>
+    <section
+        class="h-[90vh] lg:h-screen xl:h-screen w-full bg-[url('../assets/top-hero.jpg')] bg-cover bg-center bg-no-repeat py-2.5 px-3.5">
+        <!-- Mobile Navabar -->
+        <nav
+            class="lg:hidden bg-black/20 flex justify-between px-3 py-3 sm:py-3 items-center border border-white/50 rounded-4xl my-2.5 mx-3.5">
+            <div class="logo text-2xl font-bold text-white">Yatra</div>
+            <span class="bg-white h-7 sm:h-9 w-7 sm:w-9 text-[13px] flex justify-center items-center rounded-full">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </nav>
+
+        <!-- Desktop Navbar -->
+
+        <nav class="hidden lg:flex justify-between my-5 px-5">
+            <div class="logo text-3xl text-white font-bold">Yatra</div>
+            <ul
+                class="flex items-center justify-center gap-12 text-base text-white py-2 px-5 rounded-4xl bg-black/20 border border-white/50">
+                <li class="bg-white text-black h-full px-3 rounded-3xl flex items-center">Home</li>
+                <li>About</li>
+                <li>Packages</li>
+                <li>Contact</li>
+                <li>Pages</li>
+            </ul>
+            <div
+                class="book-button flex items-center gap-4 text-white py-2 px-3 rounded-4xl bg-black/20 border border-white/50">
+                <span class="text-base pl-2">Book Now</span>
+                <span class="h-10 w-10 flex items-center justify-center bg-white rounded-full">
+                    <i class="fa-solid fa-arrow-up-long rotate-45 text-zinc-600"></i>
+                </span>
+            </div>
+        </nav>
+
+        <div class="text-center flex flex-col items-center gap-8 my-15 lg:mt-20 xl:mt-25">
+            <h1 class="text-5xl md:text-6xl lg:text-7xl text-white font-semibold sm:px-20 lg:px-30 xl:px-80">Your Next
+                Adventure Starts Here</h1>
+            <div class="flex justify-center gap-2 w-full h-13">
+                <span class="bg-white text-zinc-800 flex items-center justify-center rounded-4xl px-8">Book Your
+                    Tour</span>
+                <span class="bg-[#A0F751] text-zinc-800 flex items-center justify-center w-13 rounded-4xl">
+                    <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="md:flex md:justify-between">
+            <div class="md:w-[45%] lg:w-[55%] md:flex md:items-center">
+                <div
+                    class="flex justify-between items-center lg:gap-5 mx-6 rounded-2xl py-4 sm:py-6 px-5 backdrop-blur-md bg-white/30 border border-white/50">
+                    <div class="text-white ">
+                        <h4 class="font-bold text-xl lg:text-2xl">Govaise | 5.0</h4>
+                        <p class="text-sm lg:text-base mt-3">Based on 165 reviews</p>
+                    </div>
+                    <div class="flex text-[#8cd845] lg:text-xl">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-[55%] lg:w-[45%] mt-10 px-5 flex gap-4 overflow-x-auto scrollbar-none whitespace-nowrap">
+                <div class="card1 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
+                    <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
+                        <img class="h-full w-full rounded-2xl"
+                            src="https://cdn.prod.website-files.com/68bbfb89fd15750a15a1c0ed/68d2216485d1605524132b12_Group%201000010818%20(3).png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-between mt-4 px-2">
+                        <p class="text-wrap w-[60%]">Gstaad palace, Switzeland, Europe</p>
+                        <span
+                            class="bg-white h-8 w-8 flex justify-center items-center rounded-full border border-gray-200">
+                            <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="card2 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
+                    <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
+                        <img class="h-full w-full rounded-2xl"
+                            src="https://cdn.prod.website-files.com/68bbfb89fd15750a15a1c0ed/68d220a06dc177ec2e6b3300_Group%201000010818%20(2).png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-between mt-4 px-2">
+                        <p class="text-wrap w-[60%]">Cavo Tagoo, Mykonos, Greece</p>
+                        <span
+                            class="bg-white h-8 w-8 flex justify-center items-center rounded-full border border-gray-200">
+                            <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="card3 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
+                    <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
+                        <img class="h-full w-full rounded-2xl"
+                            src="https://cdn.prod.website-files.com/68bbfb89fd15750a15a1c0ed/68d2205eab8b3070538a1451_Group%201000010818%20(1).png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-between mt-4 px-2">
+                        <p class="text-wrap w-[60%]">Ubud Jungle Retreat in Bali</p>
+                        <span
+                            class="bg-white h-8 w-8 flex justify-center items-center rounded-full border border-gray-200">
+                            <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inclusive Tour package -->
+
+    <h1 class="mt-60 lg:mt-30 xl:mt-20 text-3xl xl:text-4xl font-semibold px-7 xl:px-30 mb-10">All Inclusive tour
+        packages</h1>
+    <div class="px-7 lg:px-30 flex flex-col md:flex-row md:flex-wrap md:justify-center lg:flex-nowrap gap-6">
+        <div class="package-card shrink-0 w-auto h-120 lg:h-140 xl:h-150 border border-gray-300 rounded-2xl">
+            <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
+                <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
+                    src="https://cdn.prod.website-files.com/68c10a1203a21b5749c18f61/68c1177909e18decf8410925_destination-thumb6.webp"
+                    alt="">
+            </div>
+            <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
+                <div class="flex gap-3 items-center text-sm">
+                    <p class="text-green-600 font-semibold">5.0 Rate</p>
+                    <div class="flex gap-0.5 text-xs text-green-600">
+                        <!-- <div class="h-2.5 w-2.5 bg-green-600 rounded-full"></div> -->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-500 font-semibold">5 Days - 4 Nights</p>
+                </div>
+                <h2 class="text-lg xl:text-xl xl:font-bold font-semibold">Dubai Thrill Adventure</h2>
+                <p class="text-gray-500 text-sm">IMG Worlds • Ski Dubai • Desert Safari</p>
+                <span class="text-xs font-semibold text-white p-2 bg-green-600 rounded-sm">15% Off</span>
+                <h2 class="text-xl font-semibold">USD 1199 <span class="text-gray-500 text-sm">/ per person</span></h2>
+                <p class="text-gray-500 text-sm">Mar 10 - Mar 14 (4 Nights) <br>
+                    Found 1 hour ago
+                </p>
+                <p class="text-gray-500 text-sm">2D • Arrival | Dhow Cruise / 3D • IMG World</p>
+            </div>
+        </div>
+
+        <div class="package-card2 shrink-0 w-auto h-120 lg:h-140 xl:h-150 border border-gray-300 rounded-2xl">
+            <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
+                <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
+                    src="https://cdn.prod.website-files.com/68c10a1203a21b5749c18f61/68c116e6ed19c7ada73ca795_destination-thumb5-p-1600.webp"
+                    alt="">
+            </div>
+            <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
+                <div class="flex gap-3 items-center text-sm">
+                    <p class="text-green-600 font-semibold">4.5 Rate</p>
+                    <div class="flex gap-0.5 text-xs text-green-600">
+                        <!-- <div class="h-2.5 w-2.5 bg-green-600 rounded-full"></div> -->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                    <p class="text-gray-500 font-semibold">4 Days - 3 Nights</p>
+                </div>
+                <h2 class="text-lg xl:text-xl xl:font-bold font-semibold">Palm Jumeirah Discovery</h2>
+                <p class="text-gray-500 text-sm">Atlantis The Palm • JBR Beach • Monorail</p>
+                <span class="text-xs font-semibold text-white p-2 bg-green-600 rounded-sm">12% Off</span>
+                <h2 class="text-xl font-semibold">USD 1199 <span class="text-gray-500 text-sm">/ per person</span></h2>
+                <p class="text-gray-500 text-sm">Feb 05 - Feb 08 (3 Nights) <br>
+                    Found 1 hour ago
+                </p>
+                <p class="text-gray-500 text-sm">2D • Arrival | Beach Time / 2D • Palm Monorail</p>
+            </div>
+        </div>
+
+        <div
+            class="w-full flex flex-col gap-2 sm:gap-3 xl:gap-4 p-5 xl:p-8 border border-gray-300 rounded-2xl sm:bg-[url('../assets/travel-ai-image.avif')] md:bg-size-[200px_200px] bg-no-repeat md:bg-bottom-right lg:bg-size-[400px_400px] lg:bg-bottom">
+            <img class="w-8"
+                src="https://cdn.prod.website-files.com/68ba983807bbd2341aef80ae/68c12741cd0ae0dddd86492d_airplane.svg"
+                alt="">
+            <h2 class="text-2xl sm:text-3xl font-semibold">See more packages</h2>
+            <p class="text-sm sm:text-base text-gray-500">1500+ handpicked getaways waiting</p>
+            <a class="text-sm font-semibold py-2 w-full sm:w-50 rounded-3xl border-2 border-gray-300 text-center"
+                href="#">See more packages</a>
+        </div>
+    </div>
+
+    <!-- Costumer Review -->
+
+    <section class="lg:relative text-white bg-slate-800 my-8 md:my-12 lg:my-14 xl:my-16 px-4 py-6 md:py-8 lg:py-10 xl:py-12 flex flex-col items-center">
+        <div class="px-2 flex flex-col items-center gap-3">
+            <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center">Travelers
+                Review</span>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">What Our Travelers Say</h1>
+            <p class="text-gray-300 font-medium text-center lg:text-xl">Real experiences from people who've explored the world with
+                us</p>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center gap-3 my-8">
+            <div class="w-full md:w-auto bg-center bg-cover">
+                <img class="w-full sm:w-full md:w-85.5 lg:w-90 rounded-2xl"
+                    src="https://cdn.prod.website-files.com/68ba983807bbd2341aef80ae/68e8b3d45e1c7f711eab274a_travelers-image2.webp"
+                    alt="">
+            </div>
+            <div class="md:w-[40%] flex gap-4 flex-col justify-center md:px-5 ">
+                <div class="flex flex-col gap-4">
+                    <div class="flex gap-3 items-center text-sm lg:text-base">
+                        <p class="text-green-600 font-semibold">5.0 Rate</p>
+                        <div class="flex gap-0.5 text-xs text-green-600">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <h1 class="text-xl lg:text-2xl font-semibold">Truly Amazing experience</h1>
+                    <p class="text-base lg:text-lg text-gray-300">“Every detail was planned beautifully. The guides were friendly,
+                        the hotels were amazing, and the memories will last forever.”</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="border w-10 h-10 rounded-full">
+                        <img src="" alt="">
+                    </div>
+                    <div class="flex flex-col items-start gap-1">
+                        <h3 class="text-base lg:text-lg font-semibold">Rohan Cariappa</h3>
+                        <p class="text-sm lg:text-base text-gray-300">- Swiss Italy Tour</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex gap-3 justify-center">
+            <a class="lg:absolute left-[10%] top-[50%] cursor-pointer hover:bg-white hover:text-slate-800 transition-all duration-300 h-10 w-10 rounded-full flex items-center justify-center border" href="#"><i
+                    class="fa-solid fa-arrow-left"></i></a>
+            <a class="lg:absolute right-[10%] top-[50%] cursor-pointer hover:bg-white hover:text-slate-800 transition-all duration-300 h-10 w-10 rounded-full flex items-center justify-center border" href="#"><i
+                    class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+
+    <section class="text-slate-800 bg-gray-100 my-8 px-3 py-6 flex flex-col items-center gap-8 md:gap-10">
+        <div class="px-2 flex flex-col items-center gap-3">
+            <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center">FAQ</span>
+            <h1 class="text-3xl md:text-4xl font-semibold text-center">Everything you want know was clearly answered.
+            </h1>
+        </div>
+        <div class="flex flex-col gap-3 md:gap-5 w-full md:w-190">
+            <div
+                class="w-full py-5 px-4 md:px-6 text-xl font-semibold bg-white rounded-2xl md:rounded-3xl flex justify-between items-center">
+                How do i book a tour? <i class="fa-solid fa-angle-down cursor-pointer"></i></div>
+            <div
+                class="w-full py-5 px-4 md:px-6 text-xl font-semibold bg-white rounded-2xl md:rounded-3xl flex justify-between items-center">
+                Is my payment secure? <i class="fa-solid fa-angle-down cursor-pointer"></i></div>
+            <div
+                class="w-full py-5 px-4 md:px-6 text-xl font-semibold bg-white rounded-2xl md:rounded-3xl flex justify-between items-center">
+                What is your cancellation policy? <i class="fa-solid fa-angle-down cursor-pointer"></i></div>
+            <div
+                class="w-full py-5 px-4 md:px-6 text-xl font-semibold bg-white rounded-2xl md:rounded-3xl flex justify-between items-center">
+                Do you provide internation tours? <i class="fa-solid fa-angle-down cursor-pointer"></i></div>
+        </div>
+        <a href="#" class="bg-slate-800 text-white text-lg md:text-xl px-5 md:px-6 py-1 md:py-2 rounded-3xl">Contact
+            Travel Expert</a>
+    </section>
+
+    <!-- Footer -->
+
+    <footer
+        class="mt-20 w-full h-auto pt-9 md:pt-10 px-6 sm:px-15 lg:px-20 text-white bg-[url('../assets/footer-bg.jpg')] bg-cover bg-center bg-no-repeat">
+        <div class="border-b border-gray-600 py-8 md:py-12 sm:px-25">
+            <h1 class="text-3xl sm:text-5xl font-semibold text-center">Adventure never takes a season off</h1>
+            <p class="text-base sm:text-xl font-semibold text-center mt-5 text-gray-300">Subscribe to our newsletter
+                to
+                find travel
+                inspiration in your inbox.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 w-full mt-5">
+                <input type="email" placeholder="Email ID"
+                    class="footer-email-input bg-black/50 border-none focus:outline-none w-full sm:w-70 rounded-4xl py-2 px-5">
+                <span class="rounded-4xl py-2 px-5 bg-blue-900 text-center cursor-pointer">Subscribe</span>
+            </div>
+        </div>
+        <div class="md:flex md:flex-nowrap md:gap-20 lg:flex lg:justify-between gap-5 xl:py-8">
+
+            <!-- <div class="md:flex gap-20 lg:gap-5 md:py-8"> -->
+            <div class="py-4 flex flex-col gap-5">
+                <h1 class="text-3xl sm:text-4xl font-semibold">Yatra</h1>
+                <p class="text-base sm:text-lg font-semibold text-gray-300">Your dream trip, fully planned. <br> All
+                    you
+                    do is pack and go
+                </p>
+                <div class="text-xl sm:text-2xl flex gap-3">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <div class="py-4 flex flex-col gap-5 lg:order-1">
+                <div>
+                    <h3 class="text-base sm:text-lg font-semibold text-white">Singapore Office:</h3>
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">50 Raffle road, #37-00, Singapore
+                        Lane, <br>
+                        Singapore 048597
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-base sm:text-lg font-semibold text-white">Contact Number:</h3>
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">+50 3704852597</p>
+                </div>
+            </div>
+            <!-- </div> -->
+
+            <div class="flex justify-between md:w-full lg:w-auto lg:gap-20 xl:gap-35 pr-15 md:pr-25 lg:pr-0 my-5">
+                <div>
+                    <h2 class="text-base md:text-xl font-semibold text-gray-300 mb-3">Company</h2>
+                    <ul class="md:text-lg flex flex-col gap-2 text-white font-semibold">
+                        <li>About us</li>
+                        <li>Destination</li>
+                        <li>Packages</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-base md:text-xl font-semibold text-gray-300 mb-3">Destination</h2>
+                    <ul class="md:text-lg flex flex-col gap-2 text-white font-semibold">
+                        <li>Paris</li>
+                        <li>Maldives</li>
+                        <li>Dubai, UAE</li>
+                        <li>Tokyo, Japan</li>
+                        <li>Switzerland</li>
+                        <li>More Destination</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center py-4 lg:py-6 border-t border-gray-600">
+            <p>© 2026 All Rights Reserved. Sumit®.</p>
+        </div>
+    </footer>
+
+    <!-- h-250 sm:h-260 md:h-210 lg:h-160 xl:h-185 -->
+</body>
+
+</html>
