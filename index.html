@@ -74,7 +74,7 @@
             </div>
         </div>
 
-        <div class="md:flex md:justify-between">
+        <div class="relative md:flex md:justify-between md:items-center">
             <div class="md:w-[45%] lg:w-[55%] md:flex md:items-center">
                 <div
                     class="flex justify-between items-center lg:gap-5 mx-6 rounded-2xl py-4 sm:py-6 px-5 backdrop-blur-md bg-white/30 border border-white/50">
@@ -91,11 +91,11 @@
                     </div>
                 </div>
             </div>
-            <div class="md:w-[55%] lg:w-[45%] mt-10 px-5 flex gap-4 overflow-x-auto scrollbar-none whitespace-nowrap">
+            <div class="absolute -right-2 md:-right-4 xl:-bottom-20 w-full md:w-[55%] lg:w-[45%] mt-10 px-5 flex items-center gap-4 overflow-x-auto scrollbar-none whitespace-nowrap">
                 <div class="card1 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
                     <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
                         <img class="h-full w-full rounded-2xl"
-                            src="https://cdn.prod.website-files.com/68bbfb89fd15750a15a1c0ed/68d2216485d1605524132b12_Group%201000010818%20(3).png"
+                            src="assets/top-banner-slide1.png"
                             alt="">
                     </div>
                     <div class="flex justify-between mt-4 px-2">
@@ -110,7 +110,7 @@
                 <div class="card2 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
                     <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
                         <img class="h-full w-full rounded-2xl"
-                            src="https://cdn.prod.website-files.com/68bbfb89fd15750a15a1c0ed/68d220a06dc177ec2e6b3300_Group%201000010818%20(2).png"
+                            src="assets/top-banner-slide2.png"
                             alt="">
                     </div>
                     <div class="flex justify-between mt-4 px-2">
@@ -125,7 +125,7 @@
                 <div class="card3 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
                     <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
                         <img class="h-full w-full rounded-2xl"
-                            src="https://cdn.prod.website-files.com/68bbfb89fd15750a15a1c0ed/68d2205eab8b3070538a1451_Group%201000010818%20(1).png"
+                            src="assets/top-banner-slide3.png"
                             alt="">
                     </div>
                     <div class="flex justify-between mt-4 px-2">
@@ -150,7 +150,7 @@
             <div class="package-card shrink-0 w-auto h-120 lg:h-140 xl:h-150 border border-gray-300 rounded-2xl">
                 <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
                     <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
-                        src="https://cdn.prod.website-files.com/68c10a1203a21b5749c18f61/68c1177909e18decf8410925_destination-thumb6.webp"
+                        src="assets/inclusive-tour-packagecard1.webp"
                         alt="">
                 </div>
                 <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
@@ -181,7 +181,7 @@
             <div class="package-card2 shrink-0 w-auto h-120 lg:h-140 xl:h-150 border border-gray-300 rounded-2xl">
                 <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
                     <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
-                        src="https://cdn.prod.website-files.com/68c10a1203a21b5749c18f61/68c116e6ed19c7ada73ca795_destination-thumb5-p-1600.webp"
+                        src="assets/inclusive-tour-packagecard2.webp"
                         alt="">
                 </div>
                 <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
@@ -264,7 +264,6 @@
         </div>
     </section>
 
-
     <!-- Blogs -->
 
     <section class="my-8 px-6 lg:px-30 py-6 text-slate-800">
@@ -272,7 +271,7 @@
             <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center">Blogs</span>
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">Explore Our Blogs</h1>
         </div>
-        <div class="flex flex-col lg:flex-row lg:justify-between lg:my-10">
+        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center lg:my-10">
             <div class="px-4 my-6 md:w-[80%] lg:w-[50%]">
                 <div class="flex flex-col items-start gap-4 md:gap-6 lg:gap-8 xl:gap-10">
                     <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold">The latest from our Explo travel agency
@@ -282,9 +281,9 @@
                         blogs</a>
                 </div>
             </div>
-            <div class="flex flex-col gap-2 lg:w-75 xl:w-110">
+            <div class="flex flex-col gap-2 lg:w-75 xl:w-110 bg-slate-100 p-3 rounded-2xl">
                 <img class="rounded-2xl lg:w-full"
-                    src="https://cdn.prod.website-files.com/68cad463d4f07b7d38c209b3/68cd8a03edf18ea8a5648bbf_Image-5.png"
+                    src="assets/blogs-image1.png"
                     alt="">
                 <p class="text-lg text-gray-700">• 4 min read</p>
                 <h2 class="text-xl sm:text-2xl font-semibold">Budget Travel: How to Explore the world Without Breaking
@@ -292,23 +291,23 @@
             </div>
         </div>
         <div class="my-4 flex flex-col lg:flex-row lg:justify-between gap-6">
-            <div class="flex flex-col gap-2 lg:w-75 xl:w-auto">
+            <div class="flex flex-col gap-2 lg:w-75 xl:w-auto bg-slate-100 p-3 rounded-2xl">
                 <img class="rounded-2xl lg:w-full"
-                    src="https://cdn.prod.website-files.com/68cad463d4f07b7d38c209b3/68cd8a61837f1b8e9ba03d79_Image-6.png"
+                    src="assets/blogs-image2.png"
                     alt="">
                 <p class="text-lg text-gray-700">• 6 min read</p>
                 <h2 class="text-xl sm:text-2xl font-semibold">How to Experience Local Culture Like a True Traveler</h2>
             </div>
-            <div class="flex flex-col gap-2 lg:w-75 xl:w-auto">
+            <div class="flex flex-col gap-2 lg:w-75 xl:w-auto bg-slate-100 p-3 rounded-2xl">
                 <img class="rounded-2xl lg:w-full"
-                    src="https://cdn.prod.website-files.com/68cad463d4f07b7d38c209b3/68cd8ae4af02f6c361b219bc_Image-8.png"
+                    src="assets/blogs-image3.png"
                     alt="">
                 <p class="text-lg text-gray-700">• 5 min read</p>
                 <h2 class="text-xl sm:text-2xl font-semibold">Top 5 Adventure Activities to Try in Indonesia</h2>
             </div>
-            <div class="flex flex-col gap-2 lg:w-75 xl:w-auto">
+            <div class="flex flex-col gap-2 lg:w-75 xl:w-auto bg-slate-100 p-3 rounded-2xl">
                 <img class="rounded-2xl lg:w-full"
-                    src="https://cdn.prod.website-files.com/68cad463d4f07b7d38c209b3/68cd8aa270c726c01e8f75ad_Image-7.png"
+                    src="assets/blogs-image4.png"
                     alt="">
                 <p class="text-lg text-gray-700">• 6 min read</p>
                 <h2 class="text-xl sm:text-2xl font-semibold">Cultural Etiquette Tips for Visiting Different Countries
@@ -332,7 +331,7 @@
         <div class="flex flex-col md:flex-row justify-center gap-3 my-8">
             <div class="w-full md:w-auto bg-center bg-cover">
                 <img class="w-full sm:w-full md:w-85.5 lg:w-90 rounded-2xl"
-                    src="https://cdn.prod.website-files.com/68ba983807bbd2341aef80ae/68e8b3d45e1c7f711eab274a_travelers-image2.webp"
+                    src="assets/review-section-img.webp"
                     alt="">
             </div>
             <div class="md:w-[40%] flex gap-4 flex-col justify-center md:px-5 ">
