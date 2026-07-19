@@ -872,6 +872,12 @@
     .md\:-right-4 {
       right: calc(var(--spacing) * -4);
     }
+    .md\:right-0 {
+      right: 0px;
+    }
+    .md\:right-4 {
+      right: calc(var(--spacing) * 4);
+    }
     .md\:my-12 {
       margin-block: calc(var(--spacing) * 12);
     }
@@ -916,6 +922,9 @@
     }
     .md\:items-center {
       align-items: center;
+    }
+    .md\:items-start {
+      align-items: flex-start;
     }
     .md\:justify-between {
       justify-content: space-between;
@@ -1000,6 +1009,9 @@
     }
     .lg\:mt-20 {
       margin-top: calc(var(--spacing) * 20);
+    }
+    .lg\:mt-30 {
+      margin-top: calc(var(--spacing) * 30);
     }
     .lg\:mt-35 {
       margin-top: calc(var(--spacing) * 35);
@@ -1121,6 +1133,9 @@
     }
   }
   @media (width >= 80rem) {
+    .xl\:-bottom-0 {
+      bottom: 0px;
+    }
     .xl\:-bottom-10 {
       bottom: calc(var(--spacing) * -10);
     }
@@ -1129,6 +1144,9 @@
     }
     .xl\:-bottom-50 {
       bottom: calc(var(--spacing) * -50);
+    }
+    .xl\:bottom-0 {
+      bottom: 0px;
     }
     .xl\:bottom-10 {
       bottom: calc(var(--spacing) * 10);
