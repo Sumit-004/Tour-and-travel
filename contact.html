@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Yatra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
+    <style>
+        * {
+            font-family: "Urbanist", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-[url('../assets/contact-bg.jpg')] bg-cover bg-center bg-no-repeat">
+    <section class="h-auto w-full px-3 sm:px-6 lg:px-10 pb-10">
+        <!-- Mobile Navbar -->
+        <nav
+            class="lg:hidden bg-black/20 flex justify-between px-3 py-3 sm:py-3 items-center border border-white/50 rounded-4xl my-2.5 mx-3.5">
+            <div class="w-23 flex items-center">
+                <img class="w-full" src="assets/logo1.png" alt="">
+            </div>
+            <button type="button" aria-label="Open menu"
+                class="bg-white h-7 sm:h-9 w-7 sm:w-9 text-[13px] flex justify-center items-center rounded-full">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Desktop Navbar -->
+        <nav class="hidden lg:flex justify-between my-5 px-10">
+            <div class="w-35 flex items-center">
+                <img class="lg:w-full" src="assets/logo1.png" alt="">
+            </div>
+            <ul
+                class="flex items-center justify-center gap-12 text-base text-white py-2 px-5 rounded-4xl bg-black/20 border border-white/50">
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="index.html">Home</a>
+                </li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="about.html">About</a>
+                </li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="packages.html">Packages</a>
+                </li>
+                <li
+                    class="bg-white text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="#">Pages</a>
+                </li>
+            </ul>
+            <div
+                class="book-button flex items-center gap-4 text-white py-2 px-3 rounded-4xl bg-black/20 border border-white/50 cursor-pointer">
+                <span class="text-base pl-2">Book Now</span>
+                <span class="h-10 w-10 flex items-center justify-center bg-white rounded-full">
+                    <i class="fa-solid fa-arrow-up-long rotate-45 text-zinc-600"></i>
+                </span>
+            </div>
+        </nav>
+
+        <div
+            class="w-full md:w-[90%] lg:w-[80%] mx-auto flex flex-col items-center justify-center px-0 md:px-5 py-10 rounded-bl-2xl rounded-2xl bg-linear-120 from-black/50 to-white/50">
+            <!-- Heading -->
+            <div class="flex flex-col items-center gap-3 my-5 text-white">
+                <span
+                    class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-200 text-center flex items-center gap-2"><i
+                        class="fa-brands fa-connectdevelop"></i>Contact us</span>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center mx-auto">Need Help Planning Your
+                    Trip?</h1>
+            </div>
+
+            <form action="#" class="flex flex-col md:flex-row justify-center gap-5 w-full px-3">
+                <div
+                    class="flex flex-col items-start gap-3.5 px-4 py-5 w-full md:w-1/2 bg-white/70 backdrop-blur-md rounded-2xl shadow-2xl">
+                    <h3 class="text-xl font-semibold text-slate-800">SEND US A MESSAGE</h3>
+
+                    <div class="flex flex-col gap-2 w-full">
+                        <label class="text-sm text-slate-900" for="name">NAME*</label>
+                        <input
+                            class="text-sm py-3 px-3 w-full bg-gray-100/50 border border-gray-400 rounded-xl focus:border-gray-500 focus:outline focus:outline-gray-500"
+                            type="text" placeholder="Your Name">
+                    </div>
+
+                    <div class="flex flex-col gap-2 w-full">
+                        <label class="text-sm text-slate-900" for="email">EMAIL*</label>
+                        <input
+                            class="text-sm py-3 px-3 w-full bg-gray-100/50 border border-gray-400 rounded-xl focus:border-gray-500 focus:outline focus:outline-gray-500"
+                            type="email" placeholder="xyz@gmail.com">
+                    </div>
+
+                    <div class="flex flex-col gap-2 w-full">
+                        <label class="text-sm text-slate-900" for="phone">PHONE*</label>
+                        <input
+                            class="text-sm py-3 px-3 w-full bg-gray-100/50 border border-gray-400 rounded-xl focus:border-gray-500 focus:outline focus:outline-gray-500"
+                            type="tel" placeholder="+91 8730 97####">
+                    </div>
+
+                    <div class="flex flex-col gap-2 w-full">
+                        <label class="text-sm text-slate-900" for="travelers">NUMBER OF TRAVELERS*</label>
+                        <input
+                            class="text-sm py-3 px-3 w-full bg-gray-100/50 border border-gray-400 rounded-xl focus:border-gray-500 focus:outline focus:outline-gray-500"
+                            type="number" placeholder="e.g. 2">
+                    </div>
+
+                    <div class="flex flex-col gap-2 w-full">
+                        <label class="text-sm text-slate-900" for="notes">SPECIAL NOTES*</label>
+                        <textarea
+                            class="text-sm py-3 px-3 w-full bg-gray-100/50 border border-gray-400 rounded-xl focus:border-gray-500 focus:outline focus:outline-gray-500"
+                            placeholder="Write Your Message here"></textarea>
+                    </div>
+
+                    <button type="submit"
+                        class="text-sm py-3 px-7 rounded-3xl bg-slate-800 text-white hover:bg-slate-700 cursor-pointer transition-colors">Submit</button>
+                </div>
+
+                <div
+                    class="flex flex-col items-start gap-3.5 p-4 w-full md:w-1/2 bg-white/70 backdrop-blur-md rounded-2xl shadow-2xl">
+                    <h3 class="text-xl font-semibold text-slate-800">CONTACT DETAILS</h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="p-2 text-sm rounded-full bg-slate-700 text-white"><i
+                                class="fa-solid fa-phone"></i></span>
+                        <div>
+                            <h4 class="text-base font-semibold">Phone</h4>
+                            <p>+91 8730975313</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="p-2 text-sm rounded-full bg-slate-700 text-white"><i
+                                class="fa-solid fa-envelope"></i></span>
+                        <div>
+                            <h4 class="text-base font-semibold">Email</h4>
+                            <p>info@xyz.com</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="p-2 text-sm rounded-full bg-slate-700 text-white"><i
+                                class="fa-solid fa-location-dot"></i></span>
+                        <div>
+                            <h4 class="text-base font-semibold">Address</h4>
+                            <p>Sector 91, Delhi, Faridabad, Haryana 121013</p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-2xl w-full h-50 object-cover overflow-hidden bg-center">
+                        <img class="w-full h-full object-cover" src="assets/Simple-Location-Picker.webp"
+                            alt="Map office">
+                    </div>
+                    <div class="flex flex-col gap-4 items-start">
+                        <h2 class="text-slate-800 text-xl font-semibold">FOLLOW OUR ADVENTURES</h2>
+                        <div class="text-base sm:text-lg md:text-xl flex gap-3">
+                            <span
+                                class="text-white bg-slate-800 cursor-pointer rounded-full h-10 w-10 flex justify-center items-center"><i
+                                    class="fa-brands fa-instagram"></i></span>
+                            <span
+                                class="text-white bg-slate-800 cursor-pointer rounded-full h-10 w-10 flex justify-center items-center"><i
+                                    class="fa-brands fa-youtube"></i></span>
+                            <span
+                                class="text-white bg-slate-800 cursor-pointer rounded-full h-10 w-10 flex justify-center items-center"><i
+                                    class="fa-brands fa-x-twitter"></i></span>
+                            <span
+                                class="text-white bg-slate-800 cursor-pointer rounded-full h-10 w-10 flex justify-center items-center"><i
+                                    class="fa-brands fa-facebook"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+        class="mt-20 w-full h-auto pt-9 md:pt-10 px-6 sm:px-15 lg:px-20 text-white bg-[url('../assets/footer-bg.jpg')] bg-cover bg-center bg-no-repeat">
+        <div class="border-b border-gray-600 py-8 md:py-12 sm:px-25">
+            <h1 class="text-3xl sm:text-5xl font-semibold text-center">Adventure never takes a season off</h1>
+            <p class="text-base sm:text-xl font-semibold text-center mt-5 text-gray-300">Subscribe to our newsletter
+                to
+                find travel
+                inspiration in your inbox.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 w-full mt-5">
+                <input type="email" placeholder="Email ID"
+                    class="footer-email-input placeholder:text-white bg-black/50 border-none focus:outline-none w-full sm:w-70 rounded-4xl py-2 px-5">
+                <span class="rounded-4xl py-2 px-5 bg-blue-900 text-center cursor-pointer">Subscribe</span>
+            </div>
+        </div>
+        <div class="md:flex md:flex-nowrap md:gap-20 lg:flex lg:justify-between gap-5 xl:py-8">
+
+            <!-- <div class="md:flex gap-20 lg:gap-5 md:py-8"> -->
+            <div class="py-4 flex flex-col gap-5">
+                <div class="w-35">
+                    <img class="lg:w-full" src="assets/logo1.png" alt="">
+                </div>
+                <p class="text-base sm:text-lg font-semibold text-gray-300">Your dream trip, fully planned. <br> All
+                    you
+                    do is pack and go
+                </p>
+                <div class="text-xl sm:text-2xl flex gap-3">
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-red-400 transition-all duration-300"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-blue-500 transition-all duration-300"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-black transition-all duration-300"><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-red-500 transition-all duration-300"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-blue-700 transition-all duration-300"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="py-4 flex flex-col gap-5 lg:order-1">
+                <div>
+                    <h3 class="text-base sm:text-lg font-semibold text-white">Faridabad Office:</h3>
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">Sector 91, Delhi, Faridabad, <br>Haryana
+                        121013
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-base sm:text-lg font-semibold text-white">Contact Number:</h3>
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">+91 7004852597</p>
+                </div>
+            </div>
+            <!-- </div> -->
+
+            <div class="flex justify-between md:w-full lg:w-auto lg:gap-20 xl:gap-35 pr-15 md:pr-25 lg:pr-0 my-5">
+                <div>
+                    <h2 class="text-base md:text-xl font-semibold text-gray-300 mb-3">Company</h2>
+                    <ul class="md:text-lg flex flex-col gap-2 text-white font-semibold">
+                        <li>About us</li>
+                        <li>Destination</li>
+                        <li>Packages</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-base md:text-xl font-semibold text-gray-300 mb-3">Destination</h2>
+                    <ul class="md:text-lg flex flex-col gap-2 text-white font-semibold">
+                        <li>Goa</li>
+                        <li>Manali</li>
+                        <li>Kashmir</li>
+                        <li>Kerala</li>
+                        <li>Rajasthan</li>
+                        <li>More Destination</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center py-4 lg:py-6 border-t border-gray-600">
+            <p>© 2026 All Rights Reserved. Sumit®.</p>
+        </div>
+    </footer>
+
+    <!-- <footer
+        class="mt-20 w-full h-auto pt-9 md:pt-10 px-6 sm:px-15 lg:px-20 text-white bg-[url('../assets/footer-bg.jpg')] bg-cover bg-center bg-no-repeat">
+        <div class="border-b border-gray-600 py-8 md:py-12 sm:px-25">
+            <h1 class="text-3xl sm:text-5xl font-semibold text-center">Adventure never takes a season off</h1>
+            <p class="text-base sm:text-xl font-semibold text-center mt-5 text-gray-300">Subscribe to our newsletter
+                to find travel inspiration in your inbox.</p>
+            <form class="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 w-full mt-5">
+                <label for="newsletter-email" class="sr-only">Email address</label>
+                <input id="newsletter-email" type="email" required placeholder="Email ID"
+                    class="footer-email-input placeholder:text-white bg-black/50 border-none focus:outline-none w-full sm:w-70 rounded-4xl py-2 px-5">
+                <button type="submit" class="rounded-4xl py-2 px-5 bg-blue-900 text-center cursor-pointer">Subscribe</button>
+            </form>
+        </div>
+        <div class="md:flex md:flex-nowrap md:gap-20 lg:flex lg:justify-between gap-5 xl:py-8">
+
+            <div class="py-4 flex flex-col gap-5">
+                <h1 class="text-3xl sm:text-4xl font-semibold">Yatra</h1>
+                <p class="text-base sm:text-lg font-semibold text-gray-300">Your dream trip, fully planned. <br> All
+                    you do is pack and go
+                </p>
+                <div class="text-xl sm:text-2xl flex gap-3">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="py-4 flex flex-col gap-5 lg:order-1">
+                <div>
+                    <h3 class="text-base sm:text-lg font-semibold text-white">Faridabad Office:</h3>
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">Sector 91, Delhi, Faridabad,
+                        <br>Haryana 121013
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-base sm:text-lg font-semibold text-white">Contact Number:</h3>
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">+91 7004852597</p>
+                </div>
+            </div>
+
+            <div class="flex justify-between md:w-full lg:w-auto lg:gap-20 xl:gap-35 pr-15 md:pr-25 lg:pr-0 my-5">
+                <div>
+                    <h2 class="text-base md:text-xl font-semibold text-gray-300 mb-3">Company</h2>
+                    <ul class="md:text-lg flex flex-col gap-2 text-white font-semibold">
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="#">Destination</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-base md:text-xl font-semibold text-gray-300 mb-3">Destination</h2>
+                    <ul class="md:text-lg flex flex-col gap-2 text-white font-semibold">
+                        <li><a href="#">Goa</a></li>
+                        <li><a href="#">Manali</a></li>
+                        <li><a href="#">Kashmir</a></li>
+                        <li><a href="#">Kerala</a></li>
+                        <li><a href="#">Rajasthan</a></li>
+                        <li><a href="#">More Destination</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center py-4 lg:py-6 border-t border-gray-600">
+            <p>© 2026 All Rights Reserved. Sumit®.</p>
+        </div>
+    </footer> -->
+</body>
+
+</html>

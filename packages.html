@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
+    <style>
+        * {
+            font-family: "Urbanist", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <section
+        class="relative h-[75vh] sm:h-[80hv] md:h-[90vh] lg:h-screen xl:h-screen w-full bg-[url('../assets/destination-bg.jpg')] bg-cover bg-center bg-no-repeat pt-2.5 px-3.5">
+        <!-- Mobile Navabar -->
+        <nav
+            class="lg:hidden bg-black/20 flex justify-between px-3 py-3 sm:py-3 items-center border border-white/50 rounded-4xl my-2.5 mx-3.5">
+            <div class="w-23 flex items-center">
+                <img class="w-full" src="assets/logo1.png" alt="">
+            </div>
+            <span class="bg-white h-7 sm:h-9 w-7 sm:w-9 text-[13px] flex justify-center items-center rounded-full">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </nav>
+
+        <!-- Desktop Navbar -->
+
+        <nav class="hidden lg:flex justify-between my-5 px-10">
+            <div class="w-35 flex items-center">
+                <img class="lg:w-full" src="assets/logo1.png" alt="">
+            </div>
+            <ul
+                class="flex items-center justify-center gap-12 text-base text-white py-3 px-5 rounded-4xl bg-black/20 border border-white/50">
+                <li class="hover:bg-white hover:text-black h-full px-3 rounded-3xl flex items-center"><a
+                        href="C:\Users\91952\Desktop\Tour-Travel\index.html">Home</a></li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="C:\Users\91952\Desktop\Tour-Travel\about.html">About</a>
+                </li>
+                <li
+                    class="bg-white text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="#">Packages</a>
+                </li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="C:\Users\91952\Desktop\Tour-Travel\contact.html">Contact</a>
+                </li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="#">Pages</a>
+                </li>
+            </ul>
+            <div
+                class="book-button flex items-center gap-4 text-white py-2 px-3 rounded-4xl bg-black/20 border border-white/50 cursor-pointer">
+                <span class="text-base pl-2">Book Now</span>
+                <span class="h-10 w-10 flex items-center justify-center bg-white rounded-full">
+                    <i class="fa-solid fa-arrow-up-long rotate-45 text-zinc-600"></i>
+                </span>
+            </div>
+        </nav>
+
+        <div class="text-white flex flex-col gap-4 md:gap-6 lg:gap-8 items-center mt-18 md:mt-25 lg:mt-30">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-center">Destinations</h3>
+            <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold text-center">Explore unforgettable <br>Destinations across the globe</h1>
+            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-center">Browse, choose, and explore. Your next memorable trip starts with the right destination.</h3>
+        </div>
+        <div class="absolute left-1/2 bottom-10 md:bottom-15 h-8 md:h-10 w-8 md:w-10 bg-white rounded-full flex items-center justify-center"><i class="fa-solid fa-arrow-down"></i></div>
+
+
+    </section>
+
+    <section class="my-8 px-6 py-6 text-slate-800">
+        <div class=" flex flex-col items-center gap-3 my-5 md:my-10">
+            <span
+                class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i
+                    class="fa-brands fa-connectdevelop"></i>Explore</span>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">Explore Destinations</h1>
+        </div>
+
+        <div class="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-6">
+
+            <div class="package-card1 shrink-0 w-full sm:w-100 lg:w-100 h-auto border border-gray-300 rounded-2xl">
+                <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
+                    <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
+                        src="assets/inclusive-tour-packagecard1.webp" alt="">
+                </div>
+                <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
+                    <div class="flex gap-3 items-center text-sm">
+                        <p class="text-green-600 font-semibold">5.0 Rate</p>
+                        <div class="flex gap-0.5 text-xs text-green-600">
+                            <!-- <div class="h-2.5 w-2.5 bg-green-600 rounded-full"></div> -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-500 font-semibold">5 Days - 4 Nights</p>
+                    </div>
+                    <h2 class="text-lg xl:text-xl xl:font-bold font-semibold">Dubai Thrill Adventure</h2>
+                    <p class="text-gray-500 text-sm">IMG Worlds • Ski Dubai • Desert Safari</p>
+                    <span class="text-xs font-semibold text-white p-2 bg-green-600 rounded-sm">15% Off</span>
+                    <h2 class="text-xl font-semibold">USD 1199 <span class="text-gray-500 text-sm">/ per person</span>
+                    </h2>
+                    <p class="text-gray-500 text-sm">Mar 10 - Mar 14 (4 Nights) <br>
+                        Found 1 hour ago
+                    </p>
+                    <p class="text-gray-500 text-sm">2D • Arrival | Dhow Cruise / 3D • IMG World</p>
+                </div>
+            </div>
+
+            <div class="package-card2 shrink-0 w-full sm:w-100 lg:w-100 h-auto border border-gray-300 rounded-2xl">
+                <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
+                    <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
+                        src="assets/inclusive-tour-packagecard2.webp" alt="">
+                </div>
+                <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
+                    <div class="flex gap-3 items-center text-sm">
+                        <p class="text-green-600 font-semibold">5.0 Rate</p>
+                        <div class="flex gap-0.5 text-xs text-green-600">
+                            <!-- <div class="h-2.5 w-2.5 bg-green-600 rounded-full"></div> -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-500 font-semibold">5 Days - 4 Nights</p>
+                    </div>
+                    <h2 class="text-lg xl:text-xl xl:font-bold font-semibold">Dubai Thrill Adventure</h2>
+                    <p class="text-gray-500 text-sm">IMG Worlds • Ski Dubai • Desert Safari</p>
+                    <span class="text-xs font-semibold text-white p-2 bg-green-600 rounded-sm">15% Off</span>
+                    <h2 class="text-xl font-semibold">USD 1199 <span class="text-gray-500 text-sm">/ per person</span>
+                    </h2>
+                    <p class="text-gray-500 text-sm">Mar 10 - Mar 14 (4 Nights) <br>
+                        Found 1 hour ago
+                    </p>
+                    <p class="text-gray-500 text-sm">2D • Arrival | Dhow Cruise / 3D • IMG World</p>
+                </div>
+            </div>
+
+            <div class="package-card3 shrink-0 w-full sm:w-100 lg:w-100 h-auto border border-gray-300 rounded-2xl">
+                <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
+                    <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
+                        src="assets/inclusive-tour-packagecard1.webp" alt="">
+                </div>
+                <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
+                    <div class="flex gap-3 items-center text-sm">
+                        <p class="text-green-600 font-semibold">5.0 Rate</p>
+                        <div class="flex gap-0.5 text-xs text-green-600">
+                            <!-- <div class="h-2.5 w-2.5 bg-green-600 rounded-full"></div> -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-500 font-semibold">5 Days - 4 Nights</p>
+                    </div>
+                    <h2 class="text-lg xl:text-xl xl:font-bold font-semibold">Dubai Thrill Adventure</h2>
+                    <p class="text-gray-500 text-sm">IMG Worlds • Ski Dubai • Desert Safari</p>
+                    <span class="text-xs font-semibold text-white p-2 bg-green-600 rounded-sm">15% Off</span>
+                    <h2 class="text-xl font-semibold">USD 1199 <span class="text-gray-500 text-sm">/ per person</span>
+                    </h2>
+                    <p class="text-gray-500 text-sm">Mar 10 - Mar 14 (4 Nights) <br>
+                        Found 1 hour ago
+                    </p>
+                    <p class="text-gray-500 text-sm">2D • Arrival | Dhow Cruise / 3D • IMG World</p>
+                </div>
+            </div>
+
+            <div class="package-card4 shrink-0 w-full sm:w-100 lg:w-100 h-auto border border-gray-300 rounded-2xl">
+                <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
+                    <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
+                        src="assets/inclusive-tour-packagecard2.webp" alt="">
+                </div>
+                <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
+                    <div class="flex gap-3 items-center text-sm">
+                        <p class="text-green-600 font-semibold">5.0 Rate</p>
+                        <div class="flex gap-0.5 text-xs text-green-600">
+                            <!-- <div class="h-2.5 w-2.5 bg-green-600 rounded-full"></div> -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-500 font-semibold">5 Days - 4 Nights</p>
+                    </div>
+                    <h2 class="text-lg xl:text-xl xl:font-bold font-semibold">Dubai Thrill Adventure</h2>
+                    <p class="text-gray-500 text-sm">IMG Worlds • Ski Dubai • Desert Safari</p>
+                    <span class="text-xs font-semibold text-white p-2 bg-green-600 rounded-sm">15% Off</span>
+                    <h2 class="text-xl font-semibold">USD 1199 <span class="text-gray-500 text-sm">/ per person</span>
+                    </h2>
+                    <p class="text-gray-500 text-sm">Mar 10 - Mar 14 (4 Nights) <br>
+                        Found 1 hour ago
+                    </p>
+                    <p class="text-gray-500 text-sm">2D • Arrival | Dhow Cruise / 3D • IMG World</p>
+                </div>
+            </div>
+
+            <div class="package-card5 shrink-0 w-full sm:w-100 lg:w-100 h-auto border border-gray-300 rounded-2xl">
+                <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
+                    <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
+                        src="assets/inclusive-tour-packagecard1.webp" alt="">
+                </div>
+                <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
+                    <div class="flex gap-3 items-center text-sm">
+                        <p class="text-green-600 font-semibold">5.0 Rate</p>
+                        <div class="flex gap-0.5 text-xs text-green-600">
+                            <!-- <div class="h-2.5 w-2.5 bg-green-600 rounded-full"></div> -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-500 font-semibold">5 Days - 4 Nights</p>
+                    </div>
+                    <h2 class="text-lg xl:text-xl xl:font-bold font-semibold">Dubai Thrill Adventure</h2>
+                    <p class="text-gray-500 text-sm">IMG Worlds • Ski Dubai • Desert Safari</p>
+                    <span class="text-xs font-semibold text-white p-2 bg-green-600 rounded-sm">15% Off</span>
+                    <h2 class="text-xl font-semibold">USD 1199 <span class="text-gray-500 text-sm">/ per person</span>
+                    </h2>
+                    <p class="text-gray-500 text-sm">Mar 10 - Mar 14 (4 Nights) <br>
+                        Found 1 hour ago
+                    </p>
+                    <p class="text-gray-500 text-sm">2D • Arrival | Dhow Cruise / 3D • IMG World</p>
+                </div>
+            </div>
+
+            <div class="package-card6 shrink-0 w-full sm:w-100 lg:w-100 h-auto border border-gray-300 rounded-2xl">
+                <div class="w-full h-[40%] rounded-2xl object-cover bg-center bg-no-repeat">
+                    <img class="rounded-tl-2xl rounded-tr-2xl h-full w-full"
+                        src="assets/inclusive-tour-packagecard2.webp" alt="">
+                </div>
+                <div class="h-[60%] px-6 py-5 flex flex-col items-start gap-2 lg:gap-4 xl:gap-5">
+                    <div class="flex gap-3 items-center text-sm">
+                        <p class="text-green-600 font-semibold">5.0 Rate</p>
+                        <div class="flex gap-0.5 text-xs text-green-600">
+                            <!-- <div class="h-2.5 w-2.5 bg-green-600 rounded-full"></div> -->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-500 font-semibold">5 Days - 4 Nights</p>
+                    </div>
+                    <h2 class="text-lg xl:text-xl xl:font-bold font-semibold">Dubai Thrill Adventure</h2>
+                    <p class="text-gray-500 text-sm">IMG Worlds • Ski Dubai • Desert Safari</p>
+                    <span class="text-xs font-semibold text-white p-2 bg-green-600 rounded-sm">15% Off</span>
+                    <h2 class="text-xl font-semibold">USD 1199 <span class="text-gray-500 text-sm">/ per person</span>
+                    </h2>
+                    <p class="text-gray-500 text-sm">Mar 10 - Mar 14 (4 Nights) <br>
+                        Found 1 hour ago
+                    </p>
+                    <p class="text-gray-500 text-sm">2D • Arrival | Dhow Cruise / 3D • IMG World</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer
+        class="mt-20 w-full h-auto pt-9 md:pt-10 px-6 sm:px-15 lg:px-20 text-white bg-[url('../assets/footer-bg.jpg')] bg-cover bg-center bg-no-repeat">
+        <div class="border-b border-gray-600 py-8 md:py-12 sm:px-25">
+            <h1 class="text-3xl sm:text-5xl font-semibold text-center">Adventure never takes a season off</h1>
+            <p class="text-base sm:text-xl font-semibold text-center mt-5 text-gray-300">Subscribe to our newsletter
+                to
+                find travel
+                inspiration in your inbox.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 w-full mt-5">
+                <input type="email" placeholder="Email ID"
+                    class="footer-email-input placeholder:text-white bg-black/50 border-none focus:outline-none w-full sm:w-70 rounded-4xl py-2 px-5">
+                <span class="rounded-4xl py-2 px-5 bg-blue-900 text-center cursor-pointer">Subscribe</span>
+            </div>
+        </div>
+        <div class="md:flex md:flex-nowrap md:gap-20 lg:flex lg:justify-between gap-5 xl:py-8">
+
+            <div class="py-4 flex flex-col gap-5">
+                <div class="w-35">
+                    <img class="lg:w-full" src="assets/logo1.png" alt="">
+                </div>
+                <p class="text-base sm:text-lg font-semibold text-gray-300">Your dream trip, fully planned. <br> All
+                    you
+                    do is pack and go
+                </p>
+                <div class="text-xl sm:text-2xl flex gap-3">
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-red-400 transition-all duration-300"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-blue-500 transition-all duration-300"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-black transition-all duration-300"><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-red-500 transition-all duration-300"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-blue-700 transition-all duration-300"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="py-4 flex flex-col gap-5 lg:order-1">
+                <div>
+                    <h3 class="text-base sm:text-lg font-semibold text-white">Faridabad Office:</h3>
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">Sector 91, Delhi, Faridabad, <br>Haryana
+                        121013
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-base sm:text-lg font-semibold text-white">Contact Number:</h3>
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">+91 7004852597</p>
+                </div>
+            </div>
+
+            <div class="flex justify-between md:w-full lg:w-auto lg:gap-20 xl:gap-35 pr-15 md:pr-25 lg:pr-0 my-5">
+                <div>
+                    <h2 class="text-base md:text-xl font-semibold text-gray-300 mb-3">Company</h2>
+                    <ul class="md:text-lg flex flex-col gap-2 text-white font-semibold">
+                        <li>About us</li>
+                        <li>Destination</li>
+                        <li>Packages</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-base md:text-xl font-semibold text-gray-300 mb-3">Destination</h2>
+                    <ul class="md:text-lg flex flex-col gap-2 text-white font-semibold">
+                        <li>Goa</li>
+                        <li>Manali</li>
+                        <li>Kashmir</li>
+                        <li>Kerala</li>
+                        <li>Rajasthan</li>
+                        <li>More Destination</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center py-4 lg:py-6 border-t border-gray-600">
+            <p>© 2026 All Rights Reserved. Sumit®.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

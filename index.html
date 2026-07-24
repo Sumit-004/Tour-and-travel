@@ -17,14 +17,6 @@
         * {
             font-family: "Urbanist", sans-serif;
         }
-
-        .footer-email-input::placeholder {
-            color: white;
-        }
-
-        /* .footer-email-input {
-            outline: none;
-        } */
     </style>
 </head>
 
@@ -32,11 +24,12 @@
     <!-- Navbar -->
     <section
         class="relative h-screen lg:h-screen xl:h-screen w-full bg-[url('../assets/top-hero2.jpg')] bg-cover bg-center bg-no-repeat py-2.5 px-3.5">
-        <!-- <div class="w-full h-full absolute top-0 bg-black/20"></div> -->
         <!-- Mobile Navabar -->
         <nav
             class="lg:hidden bg-black/20 flex justify-between px-3 py-3 sm:py-3 items-center border border-white/50 rounded-4xl my-2.5 mx-3.5">
-            <div class="logo text-2xl font-bold text-white">Yatra</div>
+            <div class="w-23 flex items-center">
+                <img class="w-full" src="assets/logo1.png" alt="">
+            </div>
             <span class="bg-white h-7 sm:h-9 w-7 sm:w-9 text-[13px] flex justify-center items-center rounded-full">
                 <i class="fa-solid fa-bars"></i>
             </span>
@@ -44,18 +37,32 @@
 
         <!-- Desktop Navbar -->
 
-        <nav class="hidden lg:flex justify-between my-5 px-5">
-            <div class="logo text-3xl text-white font-bold">Yatra</div>
+        <nav class="hidden lg:flex justify-between my-5 px-10">
+            <div class="w-35 flex items-center">
+                <img class="lg:w-full" src="assets/logo1.png" alt="">
+            </div>
             <ul
                 class="flex items-center justify-center gap-12 text-base text-white py-2 px-5 rounded-4xl bg-black/20 border border-white/50">
-                <li class="bg-white text-black h-full px-3 rounded-3xl flex items-center">Home</li>
-                <li>About</li>
-                <li>Packages</li>
-                <li>Contact</li>
-                <li>Pages</li>
+                <li class="bg-white text-black h-full px-3 rounded-3xl flex items-center"><a href="#">Home</a></li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="C:\Users\91952\Desktop\Tour-Travel\about.html">About</a>
+                </li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="C:\Users\91952\Desktop\Tour-Travel\packages.html">Packages</a>
+                </li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="C:\Users\91952\Desktop\Tour-Travel\contact.html">Contact</a>
+                </li>
+                <li
+                    class="hover:bg-white hover:text-black transition-all duration-300 cursor-pointer h-full px-3 rounded-3xl flex items-center">
+                    <a href="#">Pages</a>
+                </li>
             </ul>
             <div
-                class="book-button flex items-center gap-4 text-white py-2 px-3 rounded-4xl bg-black/20 border border-white/50">
+                class="book-button flex items-center gap-4 text-white py-2 px-3 rounded-4xl bg-black/20 border border-white/50 cursor-pointer">
                 <span class="text-base pl-2">Book Now</span>
                 <span class="h-10 w-10 flex items-center justify-center bg-white rounded-full">
                     <i class="fa-solid fa-arrow-up-long rotate-45 text-zinc-600"></i>
@@ -67,9 +74,12 @@
             <h1 class="text-5xl md:text-6xl lg:text-7xl text-white font-semibold sm:px-20 lg:px-30 xl:px-80">Discover
                 the Incredible Beauty of India</h1>
             <div class="flex justify-center gap-2 w-full h-13">
-                <span class="bg-white text-zinc-800 flex items-center justify-center rounded-4xl px-8">Book Your
+                <span
+                    class="bg-white text-zinc-800 flex items-center justify-center rounded-4xl px-8 cursor-pointer hover:scale-105 transition-all duration-300">Book
+                    Your
                     Journey</span>
-                <span class="bg-[#A0F751] text-zinc-800 flex items-center justify-center w-13 rounded-4xl">
+                <span
+                    class="bg-[#A0F751] text-zinc-800 flex items-center justify-center w-13 rounded-4xl hover:rotate-45 transition-all duration-300 cursor-pointer">
                     <i class="fa-solid fa-arrow-up-long rotate-45"></i>
                 </span>
             </div>
@@ -95,7 +105,7 @@
             </div>
             <div
                 class=" w-full md:w-[55%] lg:w-[45%] px-5 flex items-center gap-4 overflow-x-auto scrollbar-none whitespace-nowrap">
-                <div class="card1 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
+                <div class="card1 cursor-pointer shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
                     <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
                         <img class="h-full w-full rounded-2xl" src="assets/udaipur-top-slide.avif" alt="">
                     </div>
@@ -108,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="card2 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
+                <div class="card2 cursor-pointer shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
                     <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
                         <img class="h-full w-full rounded-2xl" src="assets/dal-top-slide.jpg" alt="">
                     </div>
@@ -121,16 +131,17 @@
                     </div>
                 </div>
 
-                <div class="card3 shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
+                <div class="card3 cursor-pointer shrink-0 bg-gray-50 w-65 h-58 xl:h-60 rounded-2xl py-2 px-2">
                     <div class="h-[70%] w-full bg-cover bg-center bg-no-repeat">
                         <img class="h-full w-full rounded-2xl" src="assets/golden-top-slide.jpg" alt="">
                     </div>
                     <div class="flex justify-between items-center mt-4 px-2">
-                        <p class="text-wrap w-[70%]">Golden Temple, Amritsar, Punjab<p>
-                        <span
-                            class="bg-white h-8 w-8 flex justify-center items-center rounded-full border border-gray-200">
-                            <i class="fa-solid fa-arrow-up-long rotate-45"></i>
-                        </span>
+                        <p class="text-wrap w-[70%]">Golden Temple, Amritsar, Punjab
+                        <p>
+                            <span
+                                class="bg-white h-8 w-8 flex justify-center items-center rounded-full border border-gray-200">
+                                <i class="fa-solid fa-arrow-up-long rotate-45"></i>
+                            </span>
                     </div>
                 </div>
             </div>
@@ -140,7 +151,9 @@
     <!-- Inclusive Tour package -->
     <section class="mt-40 sm:mt-45 md:mt-25 lg:mt-30 xl:mt-20">
         <div class="flex flex-col items-center gap-3 my-8">
-            <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i class="fa-brands fa-connectdevelop"></i>Packages</span>
+            <span
+                class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i
+                    class="fa-brands fa-connectdevelop"></i>Packages</span>
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">All inclusive tour packages</h1>
         </div>
         <div class="px-7 lg:px-30 flex flex-col md:flex-row md:flex-wrap md:justify-center lg:flex-nowrap gap-6">
@@ -220,7 +233,9 @@
     <!-- Included Services -->
     <section class="text-white bg-slate-800 my-8 md:my-12 lg:my-14 xl:my-16 px-4 py-6 md:py-8 lg:py-10 xl:py-12">
         <div class="px-2 flex flex-col items-center gap-3">
-            <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i class="fa-brands fa-connectdevelop"></i>Included
+            <span
+                class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i
+                    class="fa-brands fa-connectdevelop"></i>Included
                 Services</span>
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">Endless and hassle free trips your
                 joy our goal</h1>
@@ -271,18 +286,19 @@
 
             <!-- Heading -->
             <div class=" flex flex-col items-center gap-3 mb-10">
-                <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i class="fa-brands fa-connectdevelop"></i>Explore
+                <span
+                    class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i
+                        class="fa-brands fa-connectdevelop"></i>Explore
                     India</span>
                 <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center mx-auto">Photo Gallery Of
                     Incredible India</h1>
             </div>
 
-            
+
             <div class="flex flex-wrap justify-center gap-10">
                 <!-- Card1 -->
-                <div class="relative overflow-hidden rounded-3xl group shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-                    <img src="assets/kashmir-gallery.jpg"
-                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                <div class="relative overflow-hidden rounded-3xl shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+                    <img src="assets/kashmir-gallery.jpg" class="w-full h-80 object-cover">
 
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/10 to-transparent"></div>
 
@@ -295,9 +311,8 @@
                 </div>
 
                 <!-- Card2 -->
-                <div class="relative overflow-hidden rounded-3xl group shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-                    <img src="assets/goa-gallery.jpg"
-                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                <div class="relative overflow-hidden rounded-3xl shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+                    <img src="assets/goa-gallery.jpg" class="w-full h-80 object-cover">
 
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/10 to-transparent"></div>
 
@@ -310,9 +325,8 @@
                 </div>
 
                 <!-- Card3 -->
-                <div class="relative overflow-hidden rounded-3xl group shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-                    <img src="assets/kerala-gallery.jpg"
-                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                <div class="relative overflow-hidden rounded-3xl shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+                    <img src="assets/kerala-gallery.jpg" class="w-full h-80 object-cover">
 
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/10 to-transparent"></div>
 
@@ -325,9 +339,8 @@
                 </div>
 
                 <!-- Card4 -->
-                <div class="relative overflow-hidden rounded-3xl group shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-                    <img src="assets/ladakh-gallery.jpg"
-                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                <div class="relative overflow-hidden rounded-3xl shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+                    <img src="assets/ladakh-gallery.jpg" class="w-full h-80 object-cover">
 
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/10 to-transparent"></div>
 
@@ -340,9 +353,8 @@
                 </div>
 
                 <!-- Card5 -->
-                <div class="relative overflow-hidden rounded-3xl group shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-                    <img src="assets/agra-gallery.jpg"
-                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                <div class="relative overflow-hidden rounded-3xl shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+                    <img src="assets/agra-gallery.jpg" class="w-full h-80 object-cover">
 
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/10 to-transparent"></div>
 
@@ -355,9 +367,8 @@
                 </div>
 
                 <!-- Card6 -->
-                <div class="relative overflow-hidden rounded-3xl group shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-                    <img src="assets/jaipur-gallery.jpg"
-                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                <div class="relative overflow-hidden rounded-3xl shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+                    <img src="assets/jaipur-gallery.jpg" class="w-full h-80 object-cover">
 
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/10 to-transparent"></div>
 
@@ -370,9 +381,8 @@
                 </div>
 
                 <!-- Card7 -->
-                <div class="relative overflow-hidden rounded-3xl group shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-                    <img src="assets/meghalaya-gallery.jpg"
-                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                <div class="relative overflow-hidden rounded-3xl shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+                    <img src="assets/meghalaya-gallery.jpg" class="w-full h-80 object-cover">
 
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/10 to-transparent"></div>
 
@@ -385,9 +395,8 @@
                 </div>
 
                 <!-- Card8 -->
-                <div class="relative overflow-hidden rounded-3xl group shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-                    <img src="assets/andaman-gallery.jpg"
-                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                <div class="relative overflow-hidden rounded-3xl shadow-lg w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+                    <img src="assets/andaman-gallery.jpg" class="w-full h-80 object-cover">
 
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/10 to-transparent"></div>
 
@@ -408,7 +417,9 @@
 
     <section class="my-8 px-6 lg:px-30 py-6 text-slate-800">
         <div class=" flex flex-col items-center gap-3">
-            <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i class="fa-brands fa-connectdevelop"></i>Blogs</span>
+            <span
+                class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i
+                    class="fa-brands fa-connectdevelop"></i>Blogs</span>
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">Explore Our Blogs</h1>
         </div>
         <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center lg:my-10">
@@ -453,7 +464,9 @@
     <section
         class="lg:relative text-white bg-slate-800 my-8 md:my-12 lg:my-14 xl:my-16 px-4 py-6 md:py-8 lg:py-10 xl:py-12 flex flex-col items-center">
         <div class="px-2 flex flex-col items-center gap-3">
-            <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i class="fa-brands fa-connectdevelop"></i>Travelers
+            <span
+                class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i
+                    class="fa-brands fa-connectdevelop"></i>Travelers
                 Review</span>
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-center">What Our Travelers Say</h1>
             <p class="text-gray-300 font-medium text-center lg:text-xl">Real experiences from people who've explored the
@@ -462,7 +475,8 @@
         </div>
         <div class="flex flex-col md:flex-row justify-center gap-3 my-8">
             <div class="w-full md:w-auto bg-center bg-cover">
-                <img class="w-full sm:w-full md:w-85.5 lg:w-90 rounded-2xl" src="assets/review-section-img1.webp" alt="">
+                <img class="w-full sm:w-full md:w-85.5 lg:w-90 rounded-2xl" src="assets/review-section-img1.webp"
+                    alt="">
             </div>
             <div class="md:w-[40%] flex gap-4 flex-col justify-center md:px-5 ">
                 <div class="flex flex-col gap-4">
@@ -506,7 +520,9 @@
 
     <section class="text-slate-800 bg-gray-100 my-8 px-3 py-6 flex flex-col items-center gap-8 md:gap-10">
         <div class="px-2 flex flex-col items-center gap-3">
-            <span class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i class="fa-brands fa-connectdevelop"></i>FAQ</span>
+            <span
+                class="text-lg md:text-xl py-1 px-3 rounded-3xl border border-gray-600 text-center flex items-center gap-2"><i
+                    class="fa-brands fa-connectdevelop"></i>FAQ</span>
             <h1 class="text-3xl md:text-4xl font-semibold text-center">Everything you want know was clearly answered.
             </h1>
         </div>
@@ -540,31 +556,38 @@
                 inspiration in your inbox.</p>
             <div class="flex flex-col sm:flex-row justify-center gap-2 sm:gap-3 w-full mt-5">
                 <input type="email" placeholder="Email ID"
-                    class="footer-email-input bg-black/50 border-none focus:outline-none w-full sm:w-70 rounded-4xl py-2 px-5">
+                    class="footer-email-input placeholder:text-white bg-black/50 border-none focus:outline-none w-full sm:w-70 rounded-4xl py-2 px-5">
                 <span class="rounded-4xl py-2 px-5 bg-blue-900 text-center cursor-pointer">Subscribe</span>
             </div>
         </div>
         <div class="md:flex md:flex-nowrap md:gap-20 lg:flex lg:justify-between gap-5 xl:py-8">
 
-            <!-- <div class="md:flex gap-20 lg:gap-5 md:py-8"> -->
             <div class="py-4 flex flex-col gap-5">
-                <h1 class="text-3xl sm:text-4xl font-semibold">Yatra</h1>
+                <div class="w-35">
+                    <img class="lg:w-full" src="assets/logo1.png" alt="">
+                </div>
                 <p class="text-base sm:text-lg font-semibold text-gray-300">Your dream trip, fully planned. <br> All
                     you
                     do is pack and go
                 </p>
                 <div class="text-xl sm:text-2xl flex gap-3">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-red-400 transition-all duration-300"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-blue-500 transition-all duration-300"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-black transition-all duration-300"><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-red-500 transition-all duration-300"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="" class="cursor-pointer hover:scale-110 hover:text-blue-700 transition-all duration-300"><i
+                            class="fa-brands fa-facebook"></i></a>
                 </div>
             </div>
             <div class="py-4 flex flex-col gap-5 lg:order-1">
                 <div>
                     <h3 class="text-base sm:text-lg font-semibold text-white">Faridabad Office:</h3>
-                    <p class="text-sm sm:text-base font-semibold text-gray-300">Sector 91, Delhi, Faridabad, <br>Haryana 121013
+                    <p class="text-sm sm:text-base font-semibold text-gray-300">Sector 91, Delhi, Faridabad, <br>Haryana
+                        121013
                     </p>
                 </div>
                 <div>
@@ -572,7 +595,6 @@
                     <p class="text-sm sm:text-base font-semibold text-gray-300">+91 7004852597</p>
                 </div>
             </div>
-            <!-- </div> -->
 
             <div class="flex justify-between md:w-full lg:w-auto lg:gap-20 xl:gap-35 pr-15 md:pr-25 lg:pr-0 my-5">
                 <div>
